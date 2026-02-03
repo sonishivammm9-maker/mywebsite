@@ -40,6 +40,17 @@
   </div>
 
 </div>
+<!-- CART ICON -->
+<div id="cartIcon" onclick="toggleCart()">🛒 Cart (<span id="cartCount">0</span>)</div>
 
+<!-- CART BOX -->
+<div id="cartBox">
+  <h3>Your Cart</h3>
+  <div id="cartItems"></div>
+  <p><b>Total: ₹<span id="total">0</span></b></p>
+  <button onclick="checkout()">Checkout</button>
+</div>
+
+<script src="cart.js"></script>
 </body>
 </html>
