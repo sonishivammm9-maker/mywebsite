@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Store</title>
+  <title>My Clothing Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -10,8 +11,7 @@
 <!-- HEADER -->
 <div class="header">
   <div class="logo">MyStore</div>
-  <input class="search" placeholder="Search products">
-  <a class="login" href="admin.html">Admin</a>
+  <input class="search" placeholder="Search for products">
 </div>
 
 <!-- CATEGORIES -->
@@ -39,9 +39,19 @@
     <button onclick="addToCart('Women Kurti',799)">Add to Cart</button>
   </div>
 
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Kids Dress</h3>
+    <p class="price">₹399 <span>₹799</span></p>
+    <button onclick="addToCart('Kids Dress',399)">Add to Cart</button>
+  </div>
+
 </div>
+
 <!-- CART ICON -->
-<div id="cartIcon" onclick="toggleCart()">🛒 Cart (<span id="cartCount">0</span>)</div>
+<div id="cartIcon" onclick="toggleCart()">
+  🛒 Cart (<span id="cartCount">0</span>)
+</div>
 
 <!-- CART BOX -->
 <div id="cartBox">
@@ -51,6 +61,8 @@
   <button onclick="checkout()">Checkout</button>
 </div>
 
+<!-- CART SCRIPT -->
 <script src="cart.js"></script>
+
 </body>
-</html>
+</html
