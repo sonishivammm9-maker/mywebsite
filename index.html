@@ -5,48 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <!-- HEADER -->
 <div class="header">
   <div class="logo">MyStore</div>
-  <input class="search" placeholder="Search for products">
-</div>
-
-<!-- CATEGORIES -->
-<div class="categories">
-  <div>Men</div>
-  <div>Women</div>
-  <div>Kids</div>
-  <div>Sale</div>
 </div>
 
 <!-- PRODUCTS -->
-<div class="products">
-
-  <div class="card">
-    <img src="https://via.placeholder.com/200">
-    <h3>Men T-Shirt</h3>
-    <p class="price">₹499 <span>₹999</span></p>
-    <button onclick="addToCart('Men T-Shirt',499)">Add to Cart</button>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/200">
-    <h3>Women Kurti</h3>
-    <p class="price">₹799 <span>₹1499</span></p>
-    <button onclick="addToCart('Women Kurti',799)">Add to Cart</button>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/200">
-    <h3>Kids Dress</h3>
-    <p class="price">₹399 <span>₹799</span></p>
-    <button onclick="addToCart('Kids Dress',399)">Add to Cart</button>
-  </div>
-
-</div>
+<div class="products" id="productList"></div>
 
 <!-- CART ICON -->
 <div id="cartIcon" onclick="toggleCart()">
@@ -61,8 +28,6 @@
   <button onclick="checkout()">Checkout</button>
 </div>
 
-<!-- CART SCRIPT -->
-<script src="cart.js"></script>
-
+<script src="script.js"></script>
 </body>
-</html
+</html>
