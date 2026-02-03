@@ -76,4 +76,26 @@ button{
   border:none;
   padding:10px;
   width:100%;
+}#cartIcon{
+  position:fixed;
+  top:15px;
+  right:20px;
+  background:white;
+  padding:10px 14px;
+  cursor:pointer;
+  font-weight:bold;
+  z-index:9999;   /* 👈 YE SABSE IMPORTANT HAI */
+  border-radius:4px;
+}
+
+#cartBox{
+  display:none;
+  position:fixed;
+  right:20px;
+  top:60px;
+  background:white;
+  width:260px;
+  padding:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+  z-index:9999;   /* 👈 YE BHI */
 }
