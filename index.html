@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" href="style.css">
-<title>Shivamm Collection</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body{margin:0;font-family:Arial;background:#f5f5f5}
-header{background:#111;color:#fff;padding:15px;text-align:center}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:20px}
-.card{background:#fff;border-radius:8px;padding:10px;text-align:center;}
-.card img{width:100%;height:240px;object-fit:cover}
-button{background:#111;color:#fff;border:none;padding:10px;width:100%;cursor:pointer}
-</style>
-</head><link rel="stylesheet" href="style.css">
+<head>
+  <title>My Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
-<header>
-<h2>Shivamm Collection</h2>
-<p>Premium Clothing Store</p>
-</header>
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">MyStore</div>
+  <input class="search" placeholder="Search products">
+  <a class="login" href="admin.html">Admin</a>
+</div>
 
+<!-- CATEGORIES -->
+<div class="categories">
+  <div>Men</div>
+  <div>Women</div>
+  <div>Kids</div>
+  <div>Sale</div>
+</div>
+
+<!-- PRODUCTS -->
 <div class="products">
-<div class="card">
-<img src="https://images.unsplash.com/photo-1520975922325-2a1d79c59b47">
-<h3>Men Stylish Shirt</h3>
-<p>?999</p>
-<button>Buy Now</button>
-</div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f">
-<h3>Casual T-Shirt</h3>
-<p>?599</p>
-<button>Buy Now</button>
-</div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Men T-Shirt</h3>
+    <p class="price">₹499 <span>₹999</span></p>
+    <button>Buy Now</button>
+  </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246">
-<h3>Women Dress</h3>
-<p>?1299</p>
-<button>Buy Now</button>
-</div>
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Women Kurti</h3>
+    <p class="price">₹799 <span>₹1499</span></p>
+    <button>Buy Now</button>
+  </div>
+
 </div>
 
 </body>
